@@ -10,15 +10,15 @@ There are two modes of operation:
     
     * Pick function name
 
-    * Pick variable number
+    * Pick a variable number
 
-    * Pick line number (dependencies can change for a variable at different points in program)
+    * Pick line number (dependencies can change for a variable at different points in the program)
 
 
-    Analysis results will include line numbers for the dependent variables and there will be line numbers with fraction which represents dummy line numbers inserted after `if` conditions and `for` loops. You can refer to the `example.txt` file for an example output when analysis is executed on `tests\test5_analysis.py`.
+    Analysis results will include line numbers for the variables that the selected variable is depending on and there will be line numbers with fractions which represent dummy line numbers inserted after `if` conditions and `for` loops. You can refer to the `example.txt` file for an example output when the analysis is executed on `tests\test5_analysis.py`.
 * Mode 1: apply optimizations
 
-    In this mode, program will apply optimizations and print out the transformed code
+    In this mode, the program will apply optimizations (constant folding and removing unused variables) and print out the transformed code
 
 ## How to run
 To run the the program, run the `main.py` file and provide 2 arguments:
