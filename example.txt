@@ -1,0 +1,20 @@
+Pick function to analyze: function_one
+Pick variable name to analyze: result_one
+Pick line number to analyze: 9
+Variable result_one depends on these variables at line: 13  
+['result_one', 'a', 'function_two', 'b', 'result_one']
+Variable b depends on these variables at line: 3
+[]
+Dependencies from function: function_two
+Returned values from the function
+['result_two']
+Variable result_two depends on these variables at line: 28.5
+['result_two', 'x', 'z', 'y']
+Variable y depends on these variables at line: 17
+['b']
+Variable z depends on these variables at line: 18
+[]
+Variable x depends on these variables at line: 17
+['a']
+Variable a depends on these variables at line: 2
+[]
